@@ -74,7 +74,7 @@ Full Turkish and English localization — switch instantly from the sidebar.
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/aetheryx.git
+git clone https://github.com/efemehmet1965/aetheryx.git
 cd aetheryx
 ```
 
@@ -177,7 +177,7 @@ Huge respect to the open-source community.
 
 <div align="center">
 
-Built with ⚡ by the Aetheryx team
+Built with ⚡ by the github.com/efemehmet1965
 
 *Star ⭐ the repo if you find it useful!*
 
