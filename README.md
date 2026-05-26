@@ -149,6 +149,32 @@ MIT License — see [LICENSE](LICENSE) for details.
 
 ---
 
+## 🙌 Acknowledgements
+
+Aetheryx was built with inspiration and support from the following open-source projects:
+
+### 🔑 Free LLM Gateway Aggregation
+https://github.com/alistaitsacle/free-llm-api-keys
+
+Used as a reference/foundation for:
+- Free public API gateway discovery
+- API key aggregation
+- Gateway probing logic
+
+---
+
+### 🛡️ Security Workflow Inspiration
+https://github.com/elementalsouls/Claude-BugHunter
+
+Inspired parts of:
+- Security-focused prompt engineering
+- Offensive security assistant behavior
+- Cybersecurity workflow structures
+
+Huge respect to the open-source community.
+
+---
+
 <div align="center">
 
 Built with ⚡ by the Aetheryx team
