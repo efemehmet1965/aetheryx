@@ -1029,13 +1029,15 @@ with st.sidebar:
 if st.session_state["page"] == "settings":
     st.markdown("""
 <style>
-/* Allow settings page to scroll naturally */
+/* Allow settings page to scroll naturally and center it */
 [data-testid="stMain"],
 section.main,
 [data-testid="stAppViewBlockContainer"] {
   height: auto !important;
   max-height: none !important;
   overflow-y: auto !important;
+  max-width: 800px !important;
+  margin: 0 auto !important;
 }
 /* Ensure the body or html allows scrolling if needed */
 html, body {
@@ -1051,8 +1053,6 @@ html, body {
   <img class="hero-img" style="width:160px" src="data:image/png;base64,{LOGO}" alt="AETHERYX">
   <div class="hero-sub">{_t("settings_title")}</div>
  </div>""", unsafe_allow_html=True)
-
-    st.markdown('<div class="feed" style="padding-top:12px">', unsafe_allow_html=True)
 
     # ── API Authorization ─────────────────────────
     st.markdown(f"""
@@ -1144,7 +1144,6 @@ html, body {
         st.success(_t("resync_complete"))
         st.rerun()
 
-    st.markdown("</div>", unsafe_allow_html=True)
     st.stop()
 
 # ═══════════════════════════════════════════════════════════════
