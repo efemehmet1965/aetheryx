@@ -1029,20 +1029,19 @@ with st.sidebar:
 if st.session_state["page"] == "settings":
     st.markdown("""
 <style>
-/* Allow settings page to scroll naturally and center it */
+/* Keep sidebar fixed, make only main content area scrollable */
 [data-testid="stMain"],
-section.main,
+section.main {
+  height: 100vh !important;
+  max-height: 100vh !important;
+  overflow-y: auto !important;
+}
 [data-testid="stAppViewBlockContainer"] {
   height: auto !important;
   max-height: none !important;
-  overflow-y: auto !important;
+  overflow: visible !important;
   max-width: 800px !important;
   margin: 0 auto !important;
-}
-/* Ensure the body or html allows scrolling if needed */
-html, body {
-  overflow-y: auto !important;
-  height: auto !important;
 }
 </style>
 """, unsafe_allow_html=True)
