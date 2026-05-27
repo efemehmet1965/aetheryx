@@ -1027,6 +1027,23 @@ with st.sidebar:
 
     st.markdown("</div>", unsafe_allow_html=True)
 if st.session_state["page"] == "settings":
+    st.markdown("""
+<style>
+/* Allow settings page to scroll naturally */
+[data-testid="stMain"],
+section.main,
+[data-testid="stAppViewBlockContainer"] {
+  height: auto !important;
+  max-height: none !important;
+  overflow-y: auto !important;
+}
+/* Ensure the body or html allows scrolling if needed */
+html, body {
+  overflow-y: auto !important;
+  height: auto !important;
+}
+</style>
+""", unsafe_allow_html=True)
 
     if LOGO:
         st.markdown(f"""

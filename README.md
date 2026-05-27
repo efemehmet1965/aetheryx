@@ -141,6 +141,13 @@ aetheryx/
 | `requests >= 2.31` | HTTP requests for gateway probing |
 | `urllib3 >= 2.0` | Connection pooling |
 
+## 🤝 Credits & Acknowledgments
+
+Aetheryx is built with inspiration and support from the open-source community. Special thanks to the following projects:
+
+1. **[alistaitsacle/free-llm-api-keys](https://github.com/alistaitsacle/free-llm-api-keys)** — For maintaining the public list of live, active, OpenAI-compatible API gateway keys.
+2. **[pekpik](https://github.com/pekpik)** — For the high-performance public API gateway endpoint proxy.
+
 ---
 
 ## 📄 License
